@@ -39,7 +39,7 @@ const Technologies = () =>  (
               <ListParagraph>
                   Python, C++, Assembly <br/>
                   Game Servers, Cheat Engine <br/>
-
+                  Reverse Engineering Games
               </ListParagraph>
           </ListContainer>
       </ListItem>
