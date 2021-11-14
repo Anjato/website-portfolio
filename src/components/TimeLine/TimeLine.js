@@ -12,7 +12,7 @@ const Timeline = () => {
 
   const scroll = (node, left) => {
     return node.scrollTo({ left, behavior: 'smooth' });
-  }
+  };
 
    const handleClick = (e, i) => {
     e.preventDefault();
@@ -22,7 +22,7 @@ const Timeline = () => {
 
       scroll(carouselRef.current, scrollLeft);
     }
-  }
+  };
 
   const handleScroll = () => {
     if (carouselRef.current) {
@@ -30,23 +30,25 @@ const Timeline = () => {
 
       setActiveItem(index);
     }
-  }
+  };
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
     window.addEventListener('resize', handleResize);
   }, []);
 
   return (
     <Section id={"about"}>
-        <SectionTitle>Timeline</SectionTitle>
+        <SectionTitle>About Me</SectionTitle>
         <SectionText>
-            EDIT THIS SHIT LMAOAO OASD OASMD IASJD UAJSDU HSAIU)D H)ASD YASGD IAHSD AGSD GSAHD GASH DASH
+            I started to have an interest in programming in 2014 and have been self-taught on and off to present day. I
+            plan on pursuing this as a long-term career and looking to focus more in-depth on a single area through
+            more formal education as opportunities arise.
         </SectionText>
         <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
             <>
