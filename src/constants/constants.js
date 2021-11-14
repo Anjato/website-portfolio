@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Website Portfolio',
+    description: "This was my first website developed using React.JS and Next.JS. I created this as a visually appealing supplement to my resume and to begin hands on learning with full stack web development.",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['React', 'Next', 'Node'],
+    source: '/',
+    code: 'https://github.com/Anjato/website-portfolio',
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://google.com',
     id: 1,
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
       image: '/images/3.jpg',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://google.com',
     id: 2,
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    code: 'https://google.com',
     id: 3,
   },
 ];
@@ -42,5 +42,5 @@ export const TimeLineData = [
   { year: 2015, text: 'Took a break and shifted my career to focus on another path', },
   { year: 2017, text: 'Began learning C++ and Java', },
   { year: 2020, text: 'Hired with Target. Began learning Python', },
-  { year: 2021, text: 'Accepted into MSU boot camp for Jan - Jul 2022. Began learning full stack web development', },
+  { year: 2021, text: 'Accepted into MSU boot camp for Jan - Jul 2022. Began learning full stack web development ahead of boot camp', },
 ];
