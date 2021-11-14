@@ -1,0 +1,1 @@
+Carousel year does not display on mobile, text is there but invisible for some unknown reason. Reappears when deleting or not using a transparent option with webkit-text-fill-color which will cause the gradient to not show
