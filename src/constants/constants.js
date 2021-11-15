@@ -47,7 +47,7 @@ export const projects = [
 export const TimeLineData = [
   { year: 2014, text: 'Started my journey with HTML and Visual Basic', },
   { year: 2015, text: 'Took a break and shifted my career to focus on another path', },
-  { year: 2017, text: 'Began learning C++ and Java', },
+  { year: 2017, text: 'Began learning C++, Java, and basic Assembly', },
   { year: 2020, text: 'Hired with Target. Began learning Python', },
   { year: 2021, text: 'Accepted into MSU boot camp for Jan - Jul 2022. Began learning full stack web development ahead of boot camp', },
 ];
