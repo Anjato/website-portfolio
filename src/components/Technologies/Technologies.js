@@ -19,7 +19,7 @@ const Technologies = () =>  (
               <ListContainer>
                   <ListTitle>Front-End Web</ListTitle>
                   <ListParagraph>
-                      React.js, CSS, HTML
+                      React.js, CSS, HTML, Next.js
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListContainer>
               <ListTitle>Back-End Web</ListTitle>
               <ListParagraph>
-                  Node.js, Databases
+                  Node.js, Databases, Express.js
               </ListParagraph>
           </ListContainer>
       </ListItem>
