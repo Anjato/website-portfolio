@@ -10,8 +10,8 @@ const Technologies = () =>  (
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I've worked with a large variety of programming languages to accomplish several projects. More recently I have
-          started to hone in on specific languages and skills in order to have a more specialized skill set in order
-          to be more efficient and successful.
+          started to hone in on specific languages and skills to have a more specialized skill set to be more efficient
+          and successful.
       </SectionText>
       <List>
           <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
               <ListContainer>
                   <ListTitle>Front-End Web</ListTitle>
                   <ListParagraph>
-                      React.js, CSS, HTML, Next.js
+                      React.js, Next.js, CSS, HTML
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListContainer>
               <ListTitle>Back-End Web</ListTitle>
               <ListParagraph>
-                  Node.js, Databases, Express.js
+                  Node.js, Express.js, Databases
               </ListParagraph>
           </ListContainer>
       </ListItem>
