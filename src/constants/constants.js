@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'MERN Stack Website',
     description:"I created this website in preparation for more in-depth learning of the MERN stack through Michigan State's boot camp. Before the boot camp started, I wanted to learn as much full stack web development on my own that I could.",
-    image: '/images/tbd.jpg',
+    image: '/images/mern.jpg',
     tags: ['MongoDB', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     code: 'https://google.com',
@@ -23,7 +23,7 @@ export const projects = [
         "than uploading several different repositories. These projects range from introductory content to other projects" +
         " I learned to make on my own from scratch from 2017-2021. More than likely the rest of my projects will be" +
         "uploaded through separate repositories because I plan on uploading only large projects in the future.",
-      image: '/images/cpp.jpg',
+      image: '/images/cpp.png',
       tags: ['C++', 'C'],
     source: 'https://google.com',
     code: 'https://github.com/Anjato/CPP-Portfolio',
