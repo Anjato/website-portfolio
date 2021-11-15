@@ -1,7 +1,23 @@
 import React from 'react';
-import {DiCode, DiFirebase, DiReact, DiZend} from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import {
+    DiCode,
+    DiFirebase,
+    DiReact,
+} from 'react-icons/di';
+import {
+    Section,
+    SectionDivider,
+    SectionText,
+    SectionTitle
+} from '../../styles/GlobalComponents';
+import {
+    List,
+    ListContainer,
+    ListItem,
+    ListParagraph,
+    ListTitle
+} from './TechnologiesStyles';
+
 
 const Technologies = () =>  (
   <Section id={"tech"}>
@@ -24,7 +40,7 @@ const Technologies = () =>  (
               </ListContainer>
           </ListItem>
           <ListItem>
-          <DiFirebase size={"3rem"}/>
+              <DiFirebase size={"3rem"}/>
           <ListContainer>
               <ListTitle>Back-End Web</ListTitle>
               <ListParagraph>
@@ -37,8 +53,8 @@ const Technologies = () =>  (
           <ListContainer>
               <ListTitle>Other</ListTitle>
               <ListParagraph>
-                  Python, C++, Assembly <br/>
-                  Game Servers, Cheat Engine <br/>
+                  Python, C++, Assembly, <br/>
+                  Game Servers, Cheat Engine, <br/>
                   Reverse Engineering Games
               </ListParagraph>
           </ListContainer>
