@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import { useEffect } from "react";
 
 const Home = () => {
   return (
@@ -21,6 +22,10 @@ const Home = () => {
     </Layout>
   );
 };
+
+if (typeof window === 'object') {
+    document.title = "Andrew's Portfolio";
+}
 
 
 export default Home;
