@@ -5,6 +5,12 @@ import {
     DiReact,
 } from 'react-icons/di';
 import {
+    SiHackaday,
+} from 'react-icons/si';
+import {
+    HiDotsCircleHorizontal, HiOutlineDotsCircleHorizontal,
+} from 'react-icons/hi';
+import {
     Section,
     SectionDivider,
     SectionText,
@@ -48,17 +54,38 @@ const Technologies = () =>  (
               </ListParagraph>
           </ListContainer>
       </ListItem>
+          <ListItem>
+              <SiHackaday size={"3rem"}/>
+              <ListContainer>
+                  <ListTitle>Hacking</ListTitle>
+                  <ListParagraph>
+                      Reverse Engineering Games, <br/>
+                      Nintendo Switch Homebrew, <br/>
+                      iOS Jailbreak, Android Rooting, <br/>
+                      Cheat Engine
+                  </ListParagraph>
+              </ListContainer>
+          </ListItem>
       <ListItem>
           <DiCode size={"3rem"}/>
           <ListContainer>
-              <ListTitle>Other</ListTitle>
+              <ListTitle>Languages</ListTitle>
               <ListParagraph>
                   Python, C++, Assembly, <br/>
-                  Game Servers, Cheat Engine, <br/>
-                  Reverse Engineering Games
+                  JavaScript
               </ListParagraph>
           </ListContainer>
       </ListItem>
+          <ListItem>
+              <HiOutlineDotsCircleHorizontal size={"3rem"}/>
+              <ListContainer>
+                  <ListTitle>Misc.</ListTitle>
+                  <ListParagraph>
+                      Game Servers, Git, GitHub, <br/>
+                      Arch Linux, Windows, MacOS <br/>
+                  </ListParagraph>
+              </ListContainer>
+          </ListItem>
       </List>
   </Section>
 );
