@@ -8,7 +8,7 @@ import {
     SiHackaday,
 } from 'react-icons/si';
 import {
-    HiDotsCircleHorizontal, HiOutlineDotsCircleHorizontal,
+    HiOutlineDotsCircleHorizontal,
 } from 'react-icons/hi';
 import {
     Section,
