@@ -64,7 +64,9 @@ const Timeline = () => {
         <SectionText>
             I started to have an interest in programming in 2014 and have been self-taught on and off to present day. I
             plan on pursuing this as a long-term career and looking to focus more in-depth on a single area through
-            more formal education as more opportunities arise.
+            more formal education as more opportunities arise. I also have a great interest in  playing and reverse
+            engineering video games and hacking different types of technology to unlock their true potential that is
+            normally locked.
         </SectionText>
         <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
             <>
