@@ -12,7 +12,8 @@ const Hero = (props) => (
               My Portfolio!
           </SectionTitle>
           <SectionText>
-              The purpose of my portfolio is to showcase of some of my projects and provide a short description about who I am.
+              The purpose of my portfolio is to showcase some of my personal projects and provide a quick background
+              about myself.
           </SectionText>
           <Button onClick={() => window.location = "#about"}>Contact Me</Button>
       </LeftSection>

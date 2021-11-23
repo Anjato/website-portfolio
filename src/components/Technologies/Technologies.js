@@ -32,8 +32,7 @@ const Technologies = () =>  (
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I've worked with a large variety of programming languages to accomplish several projects. More recently I have
-          started to hone in on specific languages and skills to have a more specialized skill set to be more efficient
-          and successful.
+          started to hone in on specific languages and skills to have a more specialized skill set.
       </SectionText>
       <List>
           <ListItem>
