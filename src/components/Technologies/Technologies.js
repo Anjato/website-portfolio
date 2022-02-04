@@ -61,7 +61,7 @@ const Technologies = () =>  (
                       Reverse Engineering Games, <br/>
                       Nintendo Switch Homebrew, <br/>
                       iOS Jailbreak, Android Rooting, <br/>
-                      Cheat Engine
+                      Cheat Engine, HTB
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -71,7 +71,8 @@ const Technologies = () =>  (
               <ListTitle>Languages</ListTitle>
               <ListParagraph>
                   Python, C++, Assembly, <br/>
-                  JavaScript
+                  JavaScript, C#, Java, Kotlin <br/>
+
               </ListParagraph>
           </ListContainer>
       </ListItem>
