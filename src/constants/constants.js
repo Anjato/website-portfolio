@@ -50,4 +50,5 @@ export const TimeLineData = [
   { year: 2017, text: 'Began learning C++, Java, and basic Assembly', },
   { year: 2020, text: 'Hired with Target. Began learning Python', },
   { year: 2021, text: 'Accepted into MSU boot camp for Jan - Jul 2022. Began learning full stack web development ahead of boot camp', },
+  { year: 2022, text: 'Started MSU Bootcamp. Began learning Java & Kotlin to create OpenOSRS plugins.'},
 ];
