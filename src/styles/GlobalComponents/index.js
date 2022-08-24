@@ -104,6 +104,7 @@ export const SectionSubText = styled.p`
   font-size: 18px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
+  padding-left: 4rem;
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
