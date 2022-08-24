@@ -26,12 +26,13 @@ import {
     ListParagraph,
     ListTitle
 } from './TechnologiesStyles';
+import {GridContainer} from "../Projects/ProjectsStyles";
 
 
 const Technologies = () =>  (
   <Section id={"tech"}>
       <SectionDivider />
-      <br/>
+      <GridContainer />
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I've worked with a large variety of programming languages to accomplish several projects. More recently I have
