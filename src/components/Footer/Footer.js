@@ -8,14 +8,10 @@ const Footer = () => {
   return (
     <FooterWrapper>
         <LinkList>
-            <LinkColumn>
-                <LinkTitle>Email</LinkTitle>
-                <LinkItem href={"mailto:atolkinen@gmail.com"} target={"__blank"}>atolkinen@gmail.com</LinkItem>
-            </LinkColumn>
         </LinkList>
         <SocialIconsContainer>
             <CompanyContainer>
-                <Slogan>Feel free to reach out for any inquiries.</Slogan>
+                <Slogan>Feel free to reach out for any inquiries via my GitHub or LinkedIn.</Slogan>
             </CompanyContainer>
             <SocialIcons href="https://www.github.com/Anjato" target="_blank">
                 <AiFillGithub size="3rem" />
