@@ -5,5 +5,5 @@ https://anjato.xyz
 # Credits
 <ul>
   <li>Source created by https://www.enyelsequeira.com/</li>
-  <li>YouTube tutorial https://www.youtube.com/watch?v=OPaLnMw2i_0</li>
+  <li>YouTube tutorial </li>
 </ul>
