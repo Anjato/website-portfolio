@@ -49,6 +49,7 @@ export const TimeLineData = [
   { year: 2015, text: 'Took a break and shifted my career to focus on another path', },
   { year: 2017, text: 'Began learning C++, Java, and basic Assembly', },
   { year: 2020, text: 'Hired with Target. Began learning Python', },
-  { year: 2021, text: 'Accepted into MSU boot camp for Jan - Jul 2022. Created first mod for Subnautica.', },
-  { year: 2022, text: 'Started MSU Bootcamp. Began learning Java & Kotlin to create OpenOSRS plugins.'},
+  { year: 2021, text: 'Accepted into MSU boot camp for Jan - Jul 2022. Began learning full stack web development ahead of boot camp', },
+  { year: 2022, text: 'Purchased Dell R720 for my new home lab. Home lab includes opnsense, proxmox, two servers,' +
+        ' and a managed switched with VLANs.',}
 ];

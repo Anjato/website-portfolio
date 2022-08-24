@@ -11,6 +11,9 @@ import {
     HiOutlineDotsCircleHorizontal,
 } from 'react-icons/hi';
 import {
+    ImLab,
+} from 'react-icons/im';
+import {
     Section,
     SectionDivider,
     SectionText,
@@ -77,12 +80,25 @@ const Technologies = () =>  (
           </ListContainer>
       </ListItem>
           <ListItem>
+              <ImLab size={"3rem"}/>
+              <ListContainer>
+                  <ListTitle>Home Lab & Network</ListTitle>
+                  <ListParagraph>
+                      Opnsense, managed switches, <br/>
+                      proxmox, active directory, <br/>
+                      openvpn, Dell r720, server racks, <br/>
+                      RAID
+                  </ListParagraph>
+              </ListContainer>
+          </ListItem>
+          <ListItem>
               <HiOutlineDotsCircleHorizontal size={"3rem"}/>
               <ListContainer>
                   <ListTitle>Misc.</ListTitle>
                   <ListParagraph>
                       Game Servers, Git, GitHub, <br/>
-                      Arch Linux, Windows, MacOS <br/>
+                      Arch Linux, Windows, MacOS, <br/>
+                      TestRails, JIRA, CI/CD <br/>
                   </ListParagraph>
               </ListContainer>
           </ListItem>
