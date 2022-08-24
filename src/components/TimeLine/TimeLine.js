@@ -16,6 +16,7 @@ import { Section,
     SectionTitle
 } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import {GridContainer} from "../Projects/ProjectsStyles";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -60,6 +61,8 @@ const Timeline = () => {
 
   return (
     <Section id={"about"}>
+        <SectionDivider />
+        <GridContainer />
         <SectionTitle>About Me</SectionTitle>
         <SectionText>
             I started to have an interest in programming in 2014 and have been self-taught on and off to present day. I
@@ -130,7 +133,6 @@ const Timeline = () => {
                 </CarouselButton>
             ))}
         </CarouselButtons>
-        <SectionDivider/>
     </Section>
   );
 };
